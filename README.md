@@ -18,35 +18,38 @@ The project is structured so that each session is fully reproducible and self-co
 
 Project Structure:
 
+```
 /
 ├── src/
-│ ├── koro.java
-│ ├── ITHAKI.java
-│ ├── Image.java
-│ ├── Packet.java
-│ ├── Sound.java
-│ ├── Temperature.java
-│ ├── VehiclePacket.java
-│ └── IthakiCopterPacket.java
+│   ├── koro.java
+│   ├── ITHAKI.java
+│   ├── Image.java
+│   ├── Packet.java
+│   ├── Sound.java
+│   ├── Temperature.java
+│   ├── VehiclePacket.java
+│   └── IthakiCopterPacket.java
 │
 ├── session1/
-│ ├── audio/
-│ ├── data/
-│ ├── plots/
-│ ├── parameters.txt
-│ └── README.md
+│   ├── audio/
+│   ├── data/
+│   ├── plots/
+│   ├── parameters.txt
+│   └── README.md
 │
 ├── session2/
-│ ├── audio/
-│ ├── data/
-│ ├── plots/
-│ ├── parameters.txt
-│ └── README.md
+│   ├── audio/
+│   ├── data/
+│   ├── plots/
+│   ├── parameters.txt
+│   └── README.md
 │
 ├── matlab/
-│  └── plots.m
+│   └── plots.m
 │
 └── README.md
+```
+
 
 MATLAB Analysis
 
@@ -78,3 +81,4 @@ Notes
 - All RTT-related metrics (mean, variance, SRTT, σ, RTO) are computed inside MATLAB.
 - AQ-DPCM parameters *(a, bt, c)* used in the analysis are documented in each session’s parameters.txt.
 - JSON files must be valid JSON objects for MATLAB to load them correctly.
+

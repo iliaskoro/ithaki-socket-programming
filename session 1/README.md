@@ -10,6 +10,7 @@ Session 1 includes the first complete set of measurements for:
 
 Contents
 
+```
 session1/
 ├── audio/
 │   ├── generator_DPCM_Samples
@@ -42,6 +43,7 @@ session1/
 │
 ├── parameters.txt
 └── README.md
+```
 
 MATLAB Analysis (Session 1)
 
@@ -64,5 +66,6 @@ Documented inside `parameters.txt`:
   - a = 0.8  
   - bt = 0.9  
   - c = 3  
+
 
 These parameters were used in MATLAB for SRTT, σ, and RTO estimation.

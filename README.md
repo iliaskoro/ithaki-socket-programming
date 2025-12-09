@@ -61,7 +61,7 @@ The MATLAB script "plots.m" generates all statistical plots automatically, inclu
 - Vehicle sensor telemetry plots  
 - IthakiCopter multi-sensor plots  
 
-Output figures are saved automatically under a "Plots/" directory.
+Output figures are saved automatically under a "plots/" directory.
 
 No MATLAB editing is required other than ensuring that file names match the generated dataset.
 
@@ -81,4 +81,5 @@ Notes
 - All RTT-related metrics (mean, variance, SRTT, σ, RTO) are computed inside MATLAB.
 - AQ-DPCM parameters *(a, bt, c)* used in the analysis are documented in each session’s parameters.txt.
 - JSON files must be valid JSON objects for MATLAB to load them correctly.
+
 

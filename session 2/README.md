@@ -5,6 +5,7 @@ It replicates the full pipeline of Session 1 but with independent measurement fi
 
 Contents
 
+```
 session2/
 ├── audio/
 │   ├── song1_DPCM_Samples
@@ -35,6 +36,7 @@ session2/
 │
 ├── parameters.txt
 └── README.md
+```
 
 RTT Statistical Metrics
 
@@ -52,3 +54,4 @@ Used for SRTT/σ/RTO computation in MATLAB.
 MATLAB Output
 
 All plots generated from this dataset follow the same naming convention as Session 1 and are stored in the `plots/` directory.
+

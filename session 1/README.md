@@ -9,7 +9,6 @@ Session 1 includes the first complete set of measurements for:
 - Vehicle OBD-II sensor decoding
 
 Contents
-
 ```
 session1/
 ├── audio/
@@ -44,7 +43,6 @@ session1/
 ├── parameters.txt
 └── README.md
 ```
-
 MATLAB Analysis (Session 1)
 
 The MATLAB script produces:
@@ -69,3 +67,4 @@ Documented inside `parameters.txt`:
 
 
 These parameters were used in MATLAB for SRTT, σ, and RTO estimation.
+

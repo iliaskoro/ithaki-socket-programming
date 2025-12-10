@@ -16,7 +16,7 @@ Two experiment sessions ("session1" and "session2") are included, each containin
 
 The project is structured so that each session is fully reproducible and self-contained.
 
-</h2>Project Structure:</h2>
+<h2>Project Structure:</h2>
 
 ```
 /
@@ -70,7 +70,7 @@ No MATLAB editing is required other than ensuring that file names match the gene
 - JDK 8 or newer  
 - DatagramSocket UDP support (standard in Java SE)
 
-<h2>MATLAB</h3>
+<h3>MATLAB</h3>
 - Supports "jsondecode"
 - Supports automatic figure saving
 - No additional toolboxes required
@@ -80,6 +80,7 @@ No MATLAB editing is required other than ensuring that file names match the gene
 - All RTT-related metrics (mean, variance, SRTT, σ, RTO) are computed inside MATLAB.
 - AQ-DPCM parameters *(a, bt, c)* used in the analysis are documented in each session’s parameters.txt.
 - JSON files must be valid JSON objects for MATLAB to load them correctly.
+
 
 
 

@@ -1,4 +1,4 @@
-Network Telemetry & Multimedia Transmission over UDP
+<h1>Network Telemetry & Multimedia Transmission over UDP</h1>
 
 This repository contains a complete implementation of a UDP-based communication client used for:
 - Echo packet RTT measurements (with and without induced delay)
@@ -16,7 +16,7 @@ Two experiment sessions ("session1" and "session2") are included, each containin
 
 The project is structured so that each session is fully reproducible and self-contained.
 
-Project Structure:
+</h2>Project Structure:</h2>
 
 ```
 /
@@ -50,8 +50,7 @@ Project Structure:
 └── README.md
 ```
 
-
-MATLAB Analysis
+<h2>MATLAB Analysis</h2>
 
 The MATLAB script "plots.m" generates all statistical plots automatically, including:
 - RTT evolution graphs  
@@ -65,21 +64,22 @@ Output figures are saved automatically under a "plots/" directory.
 
 No MATLAB editing is required other than ensuring that file names match the generated dataset.
 
-Requirements
+<h2>Requirements</h2>
 
-Java
+<h3>Java</h3>
 - JDK 8 or newer  
 - DatagramSocket UDP support (standard in Java SE)
 
-MATLAB
+<h2>MATLAB</h3>
 - Supports "jsondecode"
 - Supports automatic figure saving
 - No additional toolboxes required
 
-Notes
+<h2>Notes</h2>
 
 - All RTT-related metrics (mean, variance, SRTT, σ, RTO) are computed inside MATLAB.
 - AQ-DPCM parameters *(a, bt, c)* used in the analysis are documented in each session’s parameters.txt.
 - JSON files must be valid JSON objects for MATLAB to load them correctly.
+
 
 

@@ -67,6 +67,7 @@ No MATLAB editing is required other than ensuring that file names match the gene
 <h2>Requirements</h2>
 
 <h3>Java</h3>
+
 - JDK 8 or newer  
 - DatagramSocket UDP support (standard in Java SE)
 
@@ -81,8 +82,3 @@ No MATLAB editing is required other than ensuring that file names match the gene
 - All RTT-related metrics (mean, variance, SRTT, σ, RTO) are computed inside MATLAB.
 - AQ-DPCM parameters *(a, bt, c)* used in the analysis are documented in each session’s parameters.txt.
 - JSON files must be valid JSON objects for MATLAB to load them correctly.
-
-
-
-
-

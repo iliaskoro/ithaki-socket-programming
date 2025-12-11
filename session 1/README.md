@@ -1,6 +1,7 @@
 <h1>Session 1 – UDP Measurements & Telemetry Collection</h1>
 
 <h3>Session 1 includes the first complete set of measurements for:</h3>
+
 - Echo packets (with and without delay)
 - Camera image retrieval
 - Temperature sensor packets
@@ -48,6 +49,7 @@ session1/
 <h2>MATLAB Analysis (Session 1)</h2>
 
 <h3>The MATLAB script produces:</h3>
+
 - RTT vs time plots (G1, G3)
 - Throughput over 8-second windows (G2, G4)
 - RTT histograms (G5–G8)
@@ -58,7 +60,7 @@ session1/
 
 <h3>RTT Statistical Metrics</h3>
 
-<h3>Documented inside `parameters.txt`:</h3>
+**Documented inside `parameters.txt`:**
 
 - **Mean RTT:** 1.66 × 10³ ms  
 - **Variance:** 1.08 × 10⁵  
@@ -68,3 +70,4 @@ session1/
   - c = 3  
 
 These parameters were used in MATLAB for SRTT, σ, and RTO estimation.
+
